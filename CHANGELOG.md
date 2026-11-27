@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.7.0](https://github.com/ECaxala/herdr-gitview/compare/v0.6.0...v0.7.0) (2026-11-27)
+
+
+### Features
+
+* **gitview:** opt-in vim motions in the diff pane ([4d6b75c](https://github.com/ECaxala/herdr-gitview/commit/4d6b75c2108db498412fb5e5d1001bbc2fc00be7))
+
 ## [0.6.0](https://github.com/ChmaraX/herdr-gitview/compare/v0.5.0...v0.6.0) (2026-11-14)
 
 
