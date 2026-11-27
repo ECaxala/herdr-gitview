@@ -1,8 +1,8 @@
 # herdr-gitview
 
-[![CI](https://github.com/ChmaraX/herdr-gitview/actions/workflows/ci.yml/badge.svg)](https://github.com/ChmaraX/herdr-gitview/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/ChmaraX/herdr-gitview)](https://github.com/ChmaraX/herdr-gitview/releases/latest)
-[![License](https://img.shields.io/github/license/ChmaraX/herdr-gitview)](LICENSE)
+[![CI](https://github.com/ECaxala/herdr-gitview/actions/workflows/ci.yml/badge.svg)](https://github.com/ECaxala/herdr-gitview/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/ECaxala/herdr-gitview)](https://github.com/ECaxala/herdr-gitview/releases/latest)
+[![License](https://img.shields.io/github/license/ECaxala/herdr-gitview)](LICENSE)
 
 <p align="center">
   <a href="#features">features</a> · <a href="#install">install</a> · <a href="#quick-start">quick start</a> · <a href="#keys">keys</a> · <a href="#configuration">configuration</a> · <a href="#limitations">limitations</a> · <a href="CHANGELOG.md">changelog</a>
@@ -70,13 +70,13 @@ line you're on. You never leave Herdr.
 With the Herdr app open:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ChmaraX/herdr-gitview/main/install.sh | sh -s -- --app
+curl -fsSL https://raw.githubusercontent.com/ECaxala/herdr-gitview/main/install.sh | sh -s -- --app
 ```
 
 It downloads the prebuilt gitview for your machine, checks it, adds its
 mods, adds `cmd-shift-g` and `cmd-g` where they're free, and puts gitview in
 the Changes panel. No git clone, no Rust. Or ask the agent in your Herdr
-window to "add the mod at github.com/ChmaraX/herdr-gitview".
+window to "add the mod at github.com/ECaxala/herdr-gitview".
 
 - **Update:** run the same command again.
 - **Uninstall:** the same command with `--uninstall`; the stock Changes
@@ -140,7 +140,7 @@ these apply: `editor`, `base`, `context_lines`, `show_untracked` and
 ## Development
 
 ```bash
-git clone https://github.com/ChmaraX/herdr-gitview
+git clone https://github.com/ECaxala/herdr-gitview
 cd herdr-gitview
 herdr-app/install.sh               # builds from source and installs into the running app
 herdr-app/install.sh --uninstall

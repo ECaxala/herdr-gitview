@@ -1,8 +1,8 @@
 #!/bin/sh
 # gitview's installer, for the Herdr desktop app, the herdr TUI, or both:
 #
-#   curl -fsSL https://raw.githubusercontent.com/ChmaraX/herdr-gitview/main/install.sh | sh
-#   curl -fsSL https://raw.githubusercontent.com/ChmaraX/herdr-gitview/main/install.sh | sh -s -- --app
+#   curl -fsSL https://raw.githubusercontent.com/ECaxala/herdr-gitview/main/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/ECaxala/herdr-gitview/main/install.sh | sh -s -- --app
 #
 #   install.sh [--app] [--tui] [--uninstall] [--version vX.Y.Z] [--bundle FILE]
 #
@@ -15,11 +15,11 @@
 # app open. --version picks a release (default: the latest), --bundle a
 # bundle file instead of a download (its .sha256 beside it is checked).
 #
-# TUI: `herdr plugin install ChmaraX/herdr-gitview` (or `herdr plugin
+# TUI: `herdr plugin install ECaxala/herdr-gitview` (or `herdr plugin
 # update`); its keys are bound by hand, as TUI.md says.
 set -eu
 
-repo=ChmaraX/herdr-gitview
+repo=ECaxala/herdr-gitview
 plugin=chmarax.gitview
 app= tui= uninstall= version= bundle=
 die() { echo "gitview: $*" >&2; exit 1; }
